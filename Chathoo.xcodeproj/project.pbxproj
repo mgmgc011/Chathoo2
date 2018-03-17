@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E14BD5EB2B1A3764A56B4A /* Pods_Chathoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606D45AC0A97761A530838A3 /* Pods_Chathoo.framework */; };
+		BB48BD58202D149900E10988 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48BD57202D149900E10988 /* AuthServices.swift */; };
+		BB48BD5A202D182600E10988 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48BD59202D182600E10988 /* UserDataService.swift */; };
+		BB48BD5C202D183B00E10988 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48BD5B202D183B00E10988 /* MessageService.swift */; };
+		BB48BD5E202D185200E10988 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48BD5D202D185200E10988 /* SocketService.swift */; };
+		BB48BD60202D186900E10988 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48BD5F202D186900E10988 /* Message.swift */; };
+		BB48BD62202D187800E10988 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB48BD61202D187800E10988 /* Channel.swift */; };
 		BB532766201FFD44009DFB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB532765201FFD44009DFB52 /* AppDelegate.swift */; };
-		BB532768201FFD44009DFB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB532767201FFD44009DFB52 /* ViewController.swift */; };
 		BB53276B201FFD44009DFB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB532769201FFD44009DFB52 /* Main.storyboard */; };
 		BB53276D201FFD44009DFB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB53276C201FFD44009DFB52 /* Assets.xcassets */; };
 		BB532770201FFD44009DFB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB53276E201FFD44009DFB52 /* LaunchScreen.storyboard */; };
+		BB6EDEF520290FAB005D54F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6EDEF420290FAB005D54F7 /* Constants.swift */; };
+		BB6EDEF72029130E005D54F7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6EDEF62029130E005D54F7 /* LoginVC.swift */; };
+		BB6EDEF9202913DD005D54F7 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6EDEF8202913DD005D54F7 /* CreateAccountVC.swift */; };
+		BB7002E6202906A600986E50 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7002E4202906A600986E50 /* SWRevealViewController.m */; };
+		BB7002EB2029079A00986E50 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7002EA2029079A00986E50 /* ChatVC.swift */; };
+		BB7002ED202907A700986E50 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7002EC202907A700986E50 /* ChannelVC.swift */; };
+		BB7002EF20290A2D00986E50 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7002EE20290A2D00986E50 /* GradientView.swift */; };
+		BBFC1F83205D4117003106D0 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFC1F7F205D4116003106D0 /* AddChannelVC.xib */; };
+		BBFC1F84205D4117003106D0 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFC1F80205D4116003106D0 /* ProfileVC.xib */; };
+		BBFC1F8D205D4177003106D0 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F87205D4177003106D0 /* ChannelCell.swift */; };
+		BBFC1F8E205D4177003106D0 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F88205D4177003106D0 /* RoundedButton.swift */; };
+		BBFC1F8F205D4177003106D0 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F89205D4177003106D0 /* KeyboardBoundView.swift */; };
+		BBFC1F90205D4177003106D0 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F8A205D4177003106D0 /* AvatarCell.swift */; };
+		BBFC1F91205D4177003106D0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F8B205D4177003106D0 /* CircleImage.swift */; };
+		BBFC1F92205D4177003106D0 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F8C205D4177003106D0 /* MessageCell.swift */; };
+		BBFC1F98205D4205003106D0 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F95205D4205003106D0 /* AddChannelVC.swift */; };
+		BBFC1F99205D4205003106D0 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F96205D4205003106D0 /* AvatarPickerVC.swift */; };
+		BBFC1F9A205D4205003106D0 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC1F97205D4205003106D0 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		606D45AC0A97761A530838A3 /* Pods_Chathoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chathoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6449D33CF0DC333E195A9297 /* Pods-Chathoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chathoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chathoo/Pods-Chathoo.debug.xcconfig"; sourceTree = "<group>"; };
+		BB48BD57202D149900E10988 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		BB48BD59202D182600E10988 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		BB48BD5B202D183B00E10988 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		BB48BD5D202D185200E10988 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		BB48BD5F202D186900E10988 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BB48BD61202D187800E10988 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		BB532762201FFD44009DFB52 /* Chathoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chathoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB532765201FFD44009DFB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB532767201FFD44009DFB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB53276A201FFD44009DFB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB53276C201FFD44009DFB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB53276F201FFD44009DFB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB532771201FFD44009DFB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6EDEF420290FAB005D54F7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BB6EDEF62029130E005D54F7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BB6EDEF8202913DD005D54F7 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		BB7002E3202906A500986E50 /* Chathoo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chathoo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB7002E4202906A600986E50 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BB7002E5202906A600986E50 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BB7002EA2029079A00986E50 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		BB7002EC202907A700986E50 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		BB7002EE20290A2D00986E50 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BBFC1F7F205D4116003106D0 /* AddChannelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		BBFC1F80205D4116003106D0 /* ProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		BBFC1F87205D4177003106D0 /* ChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		BBFC1F88205D4177003106D0 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		BBFC1F89205D4177003106D0 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		BBFC1F8A205D4177003106D0 /* AvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		BBFC1F8B205D4177003106D0 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BBFC1F8C205D4177003106D0 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		BBFC1F95205D4205003106D0 /* AddChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		BBFC1F96205D4205003106D0 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		BBFC1F97205D4205003106D0 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D0899DDCD5DC129C81B4C331 /* Pods-Chathoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chathoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chathoo/Pods-Chathoo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E14BD5EB2B1A3764A56B4A /* Pods_Chathoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B09FEEDBABE0FA151F73D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606D45AC0A97761A530838A3 /* Pods_Chathoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB48BD56202D148500E10988 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB48BD57202D149900E10988 /* AuthServices.swift */,
+				BB48BD5B202D183B00E10988 /* MessageService.swift */,
+				BB48BD5D202D185200E10988 /* SocketService.swift */,
+				BB48BD59202D182600E10988 /* UserDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		BB532759201FFD44009DFB52 = {
 			isa = PBXGroup;
 			children = (
 				BB532764201FFD44009DFB52 /* Chathoo */,
 				BB532763201FFD44009DFB52 /* Products */,
+				CEC9B219204DF54DAB68DA07 /* Pods */,
+				11B09FEEDBABE0FA151F73D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +128,93 @@
 		BB532764201FFD44009DFB52 /* Chathoo */ = {
 			isa = PBXGroup;
 			children = (
+				BBFC1F7E205D4116003106D0 /* XIBs */,
+				BB48BD56202D148500E10988 /* Services */,
+				BB6EDEF320290F9D005D54F7 /* Utilities */,
+				BB7002E92029078300986E50 /* Model */,
+				BB7002E82029077F00986E50 /* View */,
+				BB7002E72029077800986E50 /* Controller */,
+				BB7002E22029069900986E50 /* Supporting Files */,
 				BB532765201FFD44009DFB52 /* AppDelegate.swift */,
-				BB532767201FFD44009DFB52 /* ViewController.swift */,
 				BB532769201FFD44009DFB52 /* Main.storyboard */,
 				BB53276C201FFD44009DFB52 /* Assets.xcassets */,
 				BB53276E201FFD44009DFB52 /* LaunchScreen.storyboard */,
 				BB532771201FFD44009DFB52 /* Info.plist */,
 			);
 			path = Chathoo;
+			sourceTree = "<group>";
+		};
+		BB6EDEF320290F9D005D54F7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BB6EDEF420290FAB005D54F7 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BB7002E22029069900986E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7002E5202906A600986E50 /* SWRevealViewController.h */,
+				BB7002E4202906A600986E50 /* SWRevealViewController.m */,
+				BB7002E3202906A500986E50 /* Chathoo-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB7002E72029077800986E50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB7002EA2029079A00986E50 /* ChatVC.swift */,
+				BB7002EC202907A700986E50 /* ChannelVC.swift */,
+				BB6EDEF62029130E005D54F7 /* LoginVC.swift */,
+				BB6EDEF8202913DD005D54F7 /* CreateAccountVC.swift */,
+				BBFC1F95205D4205003106D0 /* AddChannelVC.swift */,
+				BBFC1F96205D4205003106D0 /* AvatarPickerVC.swift */,
+				BBFC1F97205D4205003106D0 /* ProfileVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB7002E82029077F00986E50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB7002EE20290A2D00986E50 /* GradientView.swift */,
+				BBFC1F8A205D4177003106D0 /* AvatarCell.swift */,
+				BBFC1F87205D4177003106D0 /* ChannelCell.swift */,
+				BBFC1F8B205D4177003106D0 /* CircleImage.swift */,
+				BBFC1F89205D4177003106D0 /* KeyboardBoundView.swift */,
+				BBFC1F8C205D4177003106D0 /* MessageCell.swift */,
+				BBFC1F88205D4177003106D0 /* RoundedButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7002E92029078300986E50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB48BD5F202D186900E10988 /* Message.swift */,
+				BB48BD61202D187800E10988 /* Channel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBFC1F7E205D4116003106D0 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC1F7F205D4116003106D0 /* AddChannelVC.xib */,
+				BBFC1F80205D4116003106D0 /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		CEC9B219204DF54DAB68DA07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6449D33CF0DC333E195A9297 /* Pods-Chathoo.debug.xcconfig */,
+				D0899DDCD5DC129C81B4C331 /* Pods-Chathoo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB532774201FFD44009DFB52 /* Build configuration list for PBXNativeTarget "Chathoo" */;
 			buildPhases = (
+				EB4B20CA272F2D91C29FF89B /* [CP] Check Pods Manifest.lock */,
 				BB53275E201FFD44009DFB52 /* Sources */,
 				BB53275F201FFD44009DFB52 /* Frameworks */,
 				BB532760201FFD44009DFB52 /* Resources */,
+				2AB169E803F20F62B392C88A /* [CP] Embed Pods Frameworks */,
+				4BCF451804BBF1213A124437 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +252,7 @@
 				TargetAttributes = {
 					BB532761201FFD44009DFB52 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +280,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFC1F83205D4117003106D0 /* AddChannelVC.xib in Resources */,
 				BB532770201FFD44009DFB52 /* LaunchScreen.storyboard in Resources */,
 				BB53276D201FFD44009DFB52 /* Assets.xcassets in Resources */,
 				BB53276B201FFD44009DFB52 /* Main.storyboard in Resources */,
+				BBFC1F84205D4117003106D0 /* ProfileVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB169E803F20F62B392C88A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chathoo/Pods-Chathoo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chathoo/Pods-Chathoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCF451804BBF1213A124437 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chathoo/Pods-Chathoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB4B20CA272F2D91C29FF89B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chathoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB53275E201FFD44009DFB52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB532768201FFD44009DFB52 /* ViewController.swift in Sources */,
+				BB7002ED202907A700986E50 /* ChannelVC.swift in Sources */,
+				BBFC1F9A205D4205003106D0 /* ProfileVC.swift in Sources */,
+				BBFC1F92205D4177003106D0 /* MessageCell.swift in Sources */,
+				BB7002EB2029079A00986E50 /* ChatVC.swift in Sources */,
+				BBFC1F8F205D4177003106D0 /* KeyboardBoundView.swift in Sources */,
+				BB6EDEF9202913DD005D54F7 /* CreateAccountVC.swift in Sources */,
+				BB6EDEF72029130E005D54F7 /* LoginVC.swift in Sources */,
+				BBFC1F8D205D4177003106D0 /* ChannelCell.swift in Sources */,
+				BB7002EF20290A2D00986E50 /* GradientView.swift in Sources */,
 				BB532766201FFD44009DFB52 /* AppDelegate.swift in Sources */,
+				BBFC1F98205D4205003106D0 /* AddChannelVC.swift in Sources */,
+				BB48BD5C202D183B00E10988 /* MessageService.swift in Sources */,
+				BB48BD62202D187800E10988 /* Channel.swift in Sources */,
+				BBFC1F90205D4177003106D0 /* AvatarCell.swift in Sources */,
+				BBFC1F99205D4205003106D0 /* AvatarPickerVC.swift in Sources */,
+				BB48BD5A202D182600E10988 /* UserDataService.swift in Sources */,
+				BB48BD5E202D185200E10988 /* SocketService.swift in Sources */,
+				BBFC1F8E205D4177003106D0 /* RoundedButton.swift in Sources */,
+				BB48BD60202D186900E10988 /* Message.swift in Sources */,
+				BBFC1F91205D4177003106D0 /* CircleImage.swift in Sources */,
+				BB48BD58202D149900E10988 /* AuthServices.swift in Sources */,
+				BB7002E6202906A600986E50 /* SWRevealViewController.m in Sources */,
+				BB6EDEF520290FAB005D54F7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +512,18 @@
 		};
 		BB532775201FFD44009DFB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6449D33CF0DC333E195A9297 /* Pods-Chathoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 695P6D89C6;
 				INFOPLIST_FILE = Chathoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chingoo.Chathoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chathoo/Supporting Files/Chathoo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +531,17 @@
 		};
 		BB532776201FFD44009DFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0899DDCD5DC129C81B4C331 /* Pods-Chathoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 695P6D89C6;
 				INFOPLIST_FILE = Chathoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chingoo.Chathoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chathoo/Supporting Files/Chathoo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
