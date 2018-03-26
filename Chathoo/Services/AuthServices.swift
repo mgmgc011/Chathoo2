@@ -76,7 +76,7 @@ class AuthService {
             
             if response.result.error == nil {
                 guard let data = response.data else { return }
-                let json = JSON(data: data)3
+                let json = JSON(data: data)
                 self.userEmail = json["user"].stringValue
                 self.authToken = json["token"].stringValue
                 
